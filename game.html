@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Underground City Building Game</title>
+    <style>
+        #game-container {
+            left: 30vw;
+            top: 5vh;
+            width: 500px;
+            height: 500px;
+            background-color: #333;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <button type="button" id="play-again-button" onclick="resetGame()" style="visibility: hidden;">Play Again?</button>
+    </div>
+    <div id="game-container"></div>
+    <script src="animate-snake.js"></script>
+    <script src="game-map.js"></script>
+    <script src="player.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

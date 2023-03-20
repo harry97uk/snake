@@ -1,0 +1,46 @@
+#game-container {
+    position: relative;
+}
+
+.tile {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* border: 1px solid #000; */
+    background-color: aliceblue;
+}
+
+.player-head {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+}
+
+.tongue {
+    width: 5px;
+    height: 2px;
+    left: 8px;
+    top: 4px;
+    background-color: pink;
+    position: absolute;
+}
+
+.player-body {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.food {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+}
